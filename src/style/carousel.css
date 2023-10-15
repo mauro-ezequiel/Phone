@@ -1,0 +1,16 @@
+#carousel {
+    max-width: 450px;
+    position: relative;
+    top: 10px;
+
+}
+
+@media screen and (min-width:700px) {
+   
+ .carousel-inner{
+    width: 100%;
+ }
+}
+
+
+

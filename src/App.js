@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Bar from "./components/bar";
+import Carousel from "./components/carousel";
+import Bottom from "./components/bottom";
+import Button from "./components/button";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Bar />
+      <Carousel />
+
+      <section>
+        <div className="Container">
+          <h1 className="Title">
+            MOBILE PHONE REPAIR
+            <h2 className="Title__h2">
+              retail and wholesale of accessories{" "}
+            </h2>{" "}
+            <p1 className="p1">
+              android <p2 className="p1__p2">apple</p2>
+            </p1>
+          </h1>
+          <i class="bi bi-android2"></i> <i class="bi1 bi-apple"></i>
+        </div>
+
+        <Button />
+        <Bottom />
+      </section>
     </div>
   );
 }
