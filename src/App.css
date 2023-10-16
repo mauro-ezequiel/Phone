@@ -7,7 +7,8 @@ html,
 body {
   font-size: 18px;
   background-color: none;
-  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 .App {
@@ -81,7 +82,7 @@ body {
   width: 55px;
   height: 55px;
   line-height: 55px;
-  bottom: 20px;
+  bottom: 115px;
   right: 55px;
   background-color: #0df053;
   color: #fff;
@@ -100,6 +101,8 @@ body {
 
 section {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: rgb(21, 21, 52);
   width: 100vw;

@@ -1,62 +1,46 @@
-
-#bar{
-    position: sticky;
-    top: 0;
-    z-index: 9999;
+#bar {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
-
 
 .navbar {
-
- display: flex;
- width: 100vw;
- background-color:rgb(15, 15, 43) ;
- box-shadow: 5px 5px 80px 15px rgb(26, 26, 142);
- color: rgb(252, 253, 255);
-
+  display: flex;
+  width: 100vw;
+  background-color: rgb(15, 15, 43);
+  box-shadow: 5px 5px 80px 15px rgb(26, 26, 142);
+  color: rgb(252, 253, 255);
 }
-    
+
 .img {
-    height:50px;
+  height: 50px;
 }
-  
+
 .navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
-
-
-
 
 /* botones */
 .txt {
-font-size: 20px;
-border-radius: 15px;
+  font-size: 20px;
+  border-radius: 15px;
 }
 .nav-link:hover {
-
-   
-    background-color:rgb(24, 24, 119);
+  background-color: rgb(24, 24, 119);
 }
 
-
-.nav-link{
-    color:rgb(172, 173, 173) !important;
-    
+.nav-link {
+  color: rgb(172, 173, 173) !important;
 }
-
 
 /*adaptador responsi*/
 
 @media screen and (max-width: 760px) {
-    .navbar-brand {
-        display: none;
-    }
-    
-   
+  .navbar-brand {
+    display: none;
+  }
 }
-
 
 /*icon*/
 
@@ -64,20 +48,17 @@ border-radius: 15px;
   font-size: 1rem;
   color: rgb(155, 155, 166);
 }
-.bi2:hover{
-    color:beige;
-    background-color: rgb(7, 7, 84);
+.bi2:hover {
+  color: beige;
+  background-color: rgb(7, 7, 84);
 }
 
-
-.nav-item{
-    margin: auto;
-    margin: 1px 25px;
+.nav-item {
+  margin: auto;
+  margin: 1px 25px;
 }
 
-.navbar-brand{
-    margin: auto;
-    margin: 1px 15px;
+.navbar-brand {
+  margin: auto;
+  margin: 1px 15px;
 }
-
-

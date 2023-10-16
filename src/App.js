@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./App.css";
 import Bar from "./components/bar";
 import Carousel from "./components/carousel";
