@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <Bar />
       <Carousel />
-
       <section>
         <div className="Container">
           <h1 className="Title">

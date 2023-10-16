@@ -57,7 +57,7 @@ body {
 .bi {
   font-size: 3rem;
   color: chartreuse;
-  padding: 10px;
+
   text-shadow: 2px 2px 4px rgb(25, 202, 72);
 }
 
@@ -68,7 +68,6 @@ body {
 }
 
 .bi5 {
-  font-size: 1.5rem;
   color: rgb(82, 107, 196);
   margin: 11px;
 }
@@ -103,31 +102,37 @@ section {
   display: flex;
   flex-direction: column;
   background-color: rgb(21, 21, 52);
+  width: 100vw;
 }
 
 /*adaptador responsi*/
 
 @media screen and (max-width: 760px) {
   .Title {
-    font-size: 1.3rem;
-    margin: auto;
-    margin: 40px 0px;
+    font-size: 1.1rem;
   }
   .Title__h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: auto;
-    margin: 10px 0px;
+    margin-top: -10px;
   }
   .p1 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    margin: auto;
+    bottom: 0;
+    left: 0px;
+    top: 0;
+    right: 0;
   }
   .p1__p2 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
   .bi {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    left: 100px;
   }
   .bi1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding: 11px;
   }
 }
